@@ -2,42 +2,57 @@
 
 
 @media screen and  (max-width:500px) {
+<<<<<<< HEAD
     selector {}
 
 
 li{
     display: flex;
 
-}
 
-ul.nav-links {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    padding-left: 0;
-}
 
-ul.nav-links > li > a{
-    flex-direction: column;
-    background-color: lightgray;
-    padding: 15px 50px;
-    margin: 5px;
-    width: 300px;
-    text-align: center;
-}
+    li {
+        display: flex;
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
-h1{
-    justify-content: center;
-    margin: auto;
-    font-size: xxx-large;
-}
+    ul.nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        padding-left: 0;
+    }
 
+    ul.nav-links > li > a {
+        flex-direction: column;
+        background-color: lightgray;
+        padding: 15px 50px;
+        margin: 5px;
+        width: 300px;
+        text-align: center;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        justify-content: center;
+        margin: auto;
+        font-size: xxx-large;
+    }
+
+    .alert-info.hidden-on-desktop {
+        background-color: #c8faff;
+        border: solid lightgray;
+        padding: 1em 1em;
+        width: 300px;
+        text-align: center;
+    }
+
+<<<<<<< HEAD
 .alert-info {
     background-color: #c8faff;
     border: solid lightgray;
@@ -45,23 +60,30 @@ h1{
     width: 300px;
     text-align: center;
 }
+=======
+    img {
+        width: 100%;
+    }
+>>>>>>> 1b494f5b57727e8ca6b3a5e2c5fd627ddfc2d5f5
 
-img {
-    width: 100%;
+    .sub-section {
+        font-style: italic;
+    }
+
+    footer {
+        margin-right: auto;
+        padding-bottom: 15px;
+    }
 }
-
-.sub-section {
-    font-style: italic;
-}
-
+HEAD
 footer {
     margin-right: auto;
     padding-bottom: 15px;
 }
     }
 
-@media screen and (min-width: 992px) {
-    selector {
+
+
 
     }
 .alert-info{
@@ -69,5 +91,20 @@ footer {
 }
 
 
+
+@media screen and (min-width: 958px) {
+.alert-info{
+    visibility: hidden;
+}
+ul.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+li{
+    margin: 5px;
+}
+>>>>>>> 1b494f5b57727e8ca6b3a5e2c5fd627ddfc2d5f5
 }
 
