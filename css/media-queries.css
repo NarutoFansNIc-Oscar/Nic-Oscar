@@ -1,23 +1,23 @@
 * {box-sizing: border-box;}
 
 
-@media screen and   (max-width:500px) {
+@media screen and  (max-width:500px) {
     selector {
 
     }
 }
 li{
     display: flex;
-    justify-content: center;
     width: 100%;
 }
 
 ul.nav-links > li > a{
     flex-direction: column;
     background-color: darkgrey;
-    padding: 25px 50px;
+    padding: 15px 50px;
     margin: 5px;
-
+    width: 300px;
+    text-align: center;
 }
 
 body{
@@ -37,8 +37,13 @@ h1{
     padding: 1em 3em;
 }
 
+img {
+    width: 100%;
+}
+
 footer p {
     display: flex;
+    justify-content: space-between;
 }
 
 
