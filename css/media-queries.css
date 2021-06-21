@@ -2,10 +2,9 @@
 
 
 @media screen and  (max-width:500px) {
-    selector {
+    selector {}
 
-    }
-}
+
 li{
     display: flex;
 
@@ -39,7 +38,7 @@ h1{
     font-size: xxx-large;
 }
 
-.alert-info.hidden-on-desktop {
+.alert-info {
     background-color: #c8faff;
     border: solid lightgray;
     padding: 1em 1em;
@@ -59,10 +58,16 @@ footer {
     margin-right: auto;
     padding-bottom: 15px;
 }
+    }
 
 @media screen and (min-width: 992px) {
     selector {
 
     }
+.alert-info{
+    display: none;
+}
+
+
 }
 
